@@ -115,7 +115,25 @@ class _LoginScreenState extends State<LoginScreen> {
                 onPressed: () {
                   // TODO: Implement forgot password
                 },
-                child: const Text('Forgot Password?'),
+                child: const Text(
+                  'Forgot Password?',
+                  style: TextStyle(
+                    color: Colors.blue,
+                  ),
+                ),
+              ),
+              const SizedBox(height: 8),
+              TextButton(
+                onPressed: () {
+                  // TODO: Implement sign up
+                },
+                child: const Text(
+                  'Sign Up',
+                  style: TextStyle(
+                    color: Colors.blue,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
               ),
             ],
           ),
